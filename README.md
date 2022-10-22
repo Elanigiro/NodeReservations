@@ -21,6 +21,11 @@ The <strong>Frontend</strong> takes advantage of Bootstrap and custom JavaScript
 
 Finally, the Fetch API takes care of all the HTTP calls to the Backend.
 
+![Menu](https://github.com/Elanigiro/NodeReservations/blob/master/screens/Menu.png)
+![Date Filter](https://github.com/Elanigiro/NodeReservations/blob/master/screens/Date_Filter.png)
+![Edit Dialog](https://github.com/Elanigiro/NodeReservations/blob/master/screens/Modal_Dialog.png)
+![New Reservation](https://github.com/Elanigiro/NodeReservations/blob/master/screens/New_Reservation.png)
+
 ### External resources and dependencies:
 - Express
 - Bootstrap
@@ -31,8 +36,3 @@ Finally, the Fetch API takes care of all the HTTP calls to the Backend.
 - multer
 - nodemon
 - os
-
-![Menu](https://github.com/Elanigiro/NodeReservations/blob/master/screens/Menu.png)
-![Date Filter](https://github.com/Elanigiro/NodeReservations/blob/master/screens/Date_Filter.png)
-![Edit Dialog](https://github.com/Elanigiro/NodeReservations/blob/master/screens/Modal_Dialog.png)
-![New Reservation](https://github.com/Elanigiro/NodeReservations/blob/master/screens/New_Reservation.png)
