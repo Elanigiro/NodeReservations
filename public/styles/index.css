@@ -1,0 +1,23 @@
+
+
+input:invalid {
+
+    background-color: red;
+}
+
+#myDropDb:hover {
+
+    color: white; 
+    background-color: red;
+}
+
+#myDropDb:active {
+
+    color: white; 
+    background-color: #0d6efd;
+}
+
+.nav-link.dropdown-toggle:hover, .nav-link.dropdown-toggle:focus {
+
+    color: orange;
+}
