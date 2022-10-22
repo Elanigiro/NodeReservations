@@ -1,6 +1,6 @@
-![Home Page](https://github.com/Elanigiro/NodeReservations/blob/master/screens/Index.png)
-
 # NodeReservations
+
+![Home Page](https://github.com/Elanigiro/NodeReservations/blob/master/screens/Index.png)
 
 This is a NodeJS application based on the Express web framework.
 
