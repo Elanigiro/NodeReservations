@@ -30,4 +30,4 @@ Finally, the Fetch API takes care of all the HTTP calls to the Backend.
 - nodemon
 - os
 
-<!-- ![alt text](https://github.com/Elanigiro/QuizGame/blob/master/screens/1.png) -->
+<!-- ![Home Page](https://github.com/Elanigiro/QuizGame/blob/master/screens/1.png) -->
