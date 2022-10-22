@@ -1,3 +1,5 @@
+![Home Page](https://github.com/Elanigiro/NodeReservations/blob/master/screens/Index.png)
+
 # NodeReservations
 
 This is a NodeJS application based on the Express web framework.
@@ -30,4 +32,7 @@ Finally, the Fetch API takes care of all the HTTP calls to the Backend.
 - nodemon
 - os
 
-<!-- ![Home Page](https://github.com/Elanigiro/QuizGame/blob/master/screens/1.png) -->
+![Menu](https://github.com/Elanigiro/NodeReservations/blob/master/screens/Menu.png)
+![Date Filter](https://github.com/Elanigiro/NodeReservations/blob/master/screens/Date_Filter.png)
+![Edit Dialog](https://github.com/Elanigiro/NodeReservations/blob/master/screens/Modal_Dialog.png)
+![New Reservation](https://github.com/Elanigiro/NodeReservations/blob/master/screens/New_Reservation.png)
