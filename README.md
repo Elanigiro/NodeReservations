@@ -19,10 +19,6 @@ The <strong>Frontend</strong> takes advantage of Bootstrap and custom JavaScript
 
 Finally, the Fetch API takes care of all the HTTP calls to the Backend.
 
-The frontend scripts are transpiled in Javascript from the original source in Dart.
-The structure and presentation layers are written in pure HTML5 and CSS3.
-The application is made responsive through the use of CSS media query and breakpoints.
-
 ### External resources and dependencies:
 - Express
 - Bootstrap
