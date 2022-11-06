@@ -3,9 +3,9 @@ class Reservation {
 
     static strictValidationSchema = {
 
-        id: (val) => !isNaN(val),
+        id: (val) => parseInt(val) === Number(val),
         date: (val) => Boolean(val),
-        room: (val) => !isNaN(val),
+        room: (val) => (parseInt(val) === Number(val)) && (Number(val) > 0),
         firstname: (val) => Boolean(val),
         lastname: (val) => Boolean(val)
     }
@@ -13,7 +13,7 @@ class Reservation {
     static looseValidationSchema = {
 
         date: (val) => Boolean(val),
-        room: (val) => !isNaN(val),
+        room: (val) => (parseInt(val) === Number(val)) && (Number(val) > 0),
         firstname: (val) => Boolean(val),
         lastname: (val) => Boolean(val)
     }
@@ -58,5 +58,4 @@ class Reservation {
     }
 }
 
-//Exports class Reservation (it basically exports the Function constructor)
 module.exports = Reservation;

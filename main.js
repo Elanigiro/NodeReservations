@@ -4,15 +4,14 @@ const FilesController = require('./Controller/FilesController.js');
 const CSVUtils = require('./Utils/CSVUtils.js');
 
 const express = require('express');
-const bodyParser = require('body-parser');
 const cors = require('cors');
 
 const app = express();
 const PORT = 3000;
 
 app.use(cors());
-app.use(bodyParser.urlencoded({extended: false}));
-app.use(bodyParser.json());
+app.use(express.urlencoded({extended: false}));
+app.use(express.json());
 app.use(express.static(`${__dirname}/public`));
 
 app.locals.reservations = new Map();
@@ -29,8 +28,9 @@ function startBootstrap() {
 }
 
 //SERVER START
+startBootstrap();
 app.listen(PORT, () => {
-    startBootstrap();
+    
     console.log(`Hello world app listening on ${PORT}!`);
 });
 
