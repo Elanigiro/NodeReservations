@@ -1,6 +1,6 @@
 # NodeReservations
 
-![Home Page](https://github.com/Elanigiro/NodeReservations/blob/master/screens/Index.png)
+![Home Page](./screens/Index.png)
 
 This is a NodeJS application based on the Express web framework.
 
@@ -21,10 +21,10 @@ The <strong>Frontend</strong> takes advantage of Bootstrap and custom JavaScript
 
 Finally, the Fetch API takes care of all the HTTP calls to the Backend.
 
-![Menu](https://github.com/Elanigiro/NodeReservations/blob/master/screens/Menu.png)
-![Date Filter](https://github.com/Elanigiro/NodeReservations/blob/master/screens/Date_Filter.png)
-![Edit Dialog](https://github.com/Elanigiro/NodeReservations/blob/master/screens/Modal_Dialog.png)
-![New Reservation](https://github.com/Elanigiro/NodeReservations/blob/master/screens/New_Reservation.png)
+![Menu](./screens/Menu.png)
+![Date Filter](./screens/Date_Filter.png)
+![Edit Dialog](./screens/Modal_Dialog.png)
+![New Reservation](./screens/New_Reservation.png)
 
 ### External resources and dependencies:
 - Express
