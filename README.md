@@ -29,7 +29,6 @@ Finally, the Fetch API takes care of all the HTTP calls to the Backend.
 ### External resources and dependencies:
 - Express
 - Bootstrap
-- body-parser
 - cors
 - csv-parse
 - csv-stringify
